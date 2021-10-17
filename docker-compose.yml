@@ -1,0 +1,8 @@
+version: '2'
+services:
+  bot:
+    container_name: bot
+    build:
+      context: .
+      dockerfile: Dockerfile
+  
